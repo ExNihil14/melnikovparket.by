@@ -1,0 +1,51 @@
+/*
+  REC-PROD-SECTION
+*/
+
+.rec-prod-section {
+  background-color: #f9f9f9; 
+  text-align: center;
+  width: 100%;
+}
+
+.rec-prod-wrapper {  
+  @include align-items(center);
+  @include flex-direction(row);
+  @include flexbox;
+  @include justify-content(space-around);
+  padding: 3% 0;
+}
+
+.rec-prod-item {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  opacity: 1;
+  text-align: center;
+  width: 23%;
+
+  .responsive-img {
+
+    &:hover {
+      cursor: pointer;
+      opacity: .7;
+      transition: opacity .2s ease;
+    }
+    
+  }
+
+  h5 {
+    margin: 10% 0;
+
+    &:hover {
+      cursor: pointer;
+      opacity: .7;
+      transition: opacity .2s ease;
+    }
+
+  }
+
+}
+
+/*
+  END REC-PROD-SECTION
+*/

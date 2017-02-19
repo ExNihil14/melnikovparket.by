@@ -1,0 +1,74 @@
+/*
+  FOOTER SECTION
+*/
+
+.footer {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  margin: 3% 0 0;
+
+  &:before,
+  &:after {
+    -moz-box-shadow: 0 -5px 15px #777;
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -webkit-box-shadow: 0 -5px 15px #777;
+    -webkit-transform: rotate(3deg);
+    background: #777;
+    bottom: 15px;
+    box-shadow: 0 -5px 15px #777;
+    content: "";
+    left: 10px;
+    max-width:300px;
+    position: absolute;
+    top: 20%;
+    transform: rotate(3deg);
+    width: 50%;
+    z-index: -1;
+  }
+
+  &:after {
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    left: auto;
+    right: 10px;
+    transform: rotate(-3deg);
+  }
+
+}
+
+.footer-wrapper {
+  @include align-items(center);
+  @include flex-direction(row);
+  @include flexbox;
+  @include justify-content(space-around);
+}
+
+.footer-menu {
+  @include align-items(flex-start);
+  @include flex-direction(column);
+  @include flexbox;
+  @include justify-content(center);
+  display: inline-block;
+  list-style: circle;
+
+  li {
+    list-style: circle;
+  }
+
+}
+
+.footer-item-phone {
+  @include align-items(flex-start);
+  @include flex-direction(column);
+  @include flexbox;
+  @include justify-content(center);
+}
+
+/*
+  END FOOTER SECTION
+*/

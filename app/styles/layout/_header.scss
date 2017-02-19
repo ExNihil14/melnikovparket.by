@@ -1,0 +1,33 @@
+/*
+  HEADER SECTION
+*/
+
+.header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+nav {
+  background-color: inherit;
+
+  li {
+
+    a {
+      color: black;
+      font-size: 12px;
+      padding: 0 15px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  
+  }
+
+}
+
+
+
+/*
+  END HEADER SECTION
+*/

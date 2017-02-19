@@ -1,0 +1,11 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin font-size($font-size){
+    font-size: ($font-size/16px)*1rem;
+}

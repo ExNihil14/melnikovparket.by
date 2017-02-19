@@ -1,0 +1,46 @@
+//materialize.scss
+@import "materialize";
+
+// Sass utilities
+@import "utils/variables";
+@import "utils/functions";
+@import "utils/mixins";
+@import "utils/placeholders";
+@import "utils/flex";
+
+// Vendors and external stylesheets
+//@import "vendors/bootstrap";
+//@import "vendors/jquery-ui";
+
+// Base stuff
+// @import "base/normalize";
+@import "base/typography";
+
+// Layout related stylesheets
+//@import "layout/grid";
+@import "layout/header";
+@import "layout/service-section";
+@import "layout/offer-section";
+@import "layout/review-section";
+@import "layout/slider-section";
+@import "layout/suggestions-section";
+@import "layout/rec-prod-section";
+@import "layout/footer";
+//@import "layout/sidebar";
+
+// Components and modules
+@import "components/slick";
+@import "components/slick-theme";
+//@import "components/buttons";
+//@import "components/cover";
+//@import "components/dropdown";
+
+// Page-specific stylesheets
+//@import "pages/home";
+//@import "pages/contact";
+
+// Themes
+//@import "themes/theme";
+//@import "themes/admin";
+
+@import "global";

@@ -1,0 +1,86 @@
+/*
+  REVIEW-SECTION
+*/
+
+.review-section {
+  background-color: white;
+  padding-bottom: 3%;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+  &:before,
+  &:after {
+    -moz-box-shadow: 0 15px 10px #777;
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -webkit-box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    background: #777;
+    bottom: 15px;
+    box-shadow: 0 15px 10px #777;
+    content: "";
+    left: 10px;
+    max-width: 25%;
+    position: absolute;
+    top: 50%;
+    transform: rotate(-2deg);
+    width: 50%;
+    z-index: -1;
+  }
+
+  &:after {
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    left: auto;
+    right: 10px;
+    transform: rotate(2deg);
+  }
+
+  .btn {
+    margin-top: 3%;
+  }
+
+}
+
+.span-five {
+  width: calculate-width(5);
+}
+
+.Mycarousel2 {
+
+  .slick-prev {
+    height: 40px;        
+    left: 10px;
+    z-index: 1;    
+  }
+
+  .slick-next {
+    height: 40px;
+    right: 10px;
+    z-index: 1;
+  }
+
+}
+
+.span-five {
+  
+  .responsive-img {
+    opacity: 0.85;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 1;
+      transition: opacity 0.3s ease;
+    }
+
+  }
+
+}
+
+/*
+  END REVIEW-SECTION
+*/
