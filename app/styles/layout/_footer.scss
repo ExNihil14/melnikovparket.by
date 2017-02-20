@@ -23,7 +23,7 @@
     left: 10px;
     max-width:300px;
     position: absolute;
-    top: 20%;
+    top: 10%;
     transform: rotate(3deg);
     width: 50%;
     z-index: -1;
@@ -42,10 +42,17 @@
 }
 
 .footer-wrapper {
-  @include align-items(center);
+  @include align-items(flex-start);
   @include flex-direction(row);
   @include flexbox;
   @include justify-content(space-around);
+
+  h5 {
+    font-weight: bold;
+    text-transform: none;
+    font-size: 14px;
+  }
+
 }
 
 .footer-menu {
@@ -54,10 +61,18 @@
   @include flexbox;
   @include justify-content(center);
   display: inline-block;
-  list-style: circle;
+  list-style: disc;
+  margin-top: 0;
 
   li {
-    list-style: circle;
+    list-style: disc;
+
+    a {
+      text-decoration: underline;
+      color: #0f47f9;
+      cursor: auto;
+    }
+
   }
 
 }
@@ -66,7 +81,7 @@
   @include align-items(flex-start);
   @include flex-direction(column);
   @include flexbox;
-  @include justify-content(center);
+  @include justify-content(space-around);
 }
 
 /*

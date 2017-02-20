@@ -9,10 +9,11 @@
   z-index: 2;
 }
 
-nav {
+.header-menu {
   background-color: inherit;
 
   li {
+    list-style: none;
 
     a {
       color: black;

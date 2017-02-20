@@ -1,0 +1,37 @@
+/*
+  MARKET-SECTION
+*/
+
+.market-section {
+  width: 100%;
+}
+
+.market-menu--white {
+	background-color: white;
+}
+
+.market-menu--grey {
+	background-color: lightgray;
+}
+
+.menu-wrapper {
+
+	ul {
+		list-style: none;
+
+		a {
+			color: black;
+			text-transform: uppercase;
+
+			.responsive-img {
+				width: 46%;
+			}
+
+		}
+
+	}	
+
+}
+/*
+  END MARKET-SECTION
+*/
