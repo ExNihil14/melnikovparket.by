@@ -1,0 +1,31 @@
+/*
+  GOODS-SECTION
+*/
+
+.goods-section {
+  @include align-content(space-around);
+  @include align-items(center);
+  @include flex-direction(row);
+  @include flexbox;
+  @include justify-content(space-around);
+  background-color: #f9f9f9; 
+  flex-flow: row wrap;
+  text-align: center;
+  width: 100%;
+}
+
+.goods-item {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  opacity: 1;
+  text-align: center;
+  width: 15%;  
+  flex: 1 1 15%;
+  margin: 2%;
+}
+
+
+
+/*
+  END GOODS-SECTION
+*/

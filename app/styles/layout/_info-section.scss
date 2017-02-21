@@ -1,0 +1,38 @@
+/*
+  INFO-SECTION
+*/
+
+.info-section {
+  @include align-items(center);
+  @include flex-direction(column);
+  @include flexbox;
+  @include justify-content(space-between);
+  background-color: white;
+  text-align: center;
+  width: 100%;
+
+  .container {
+    padding: 0 10%;
+
+    p {
+      text-align: justify;
+    }
+
+    h4 {
+      border-bottom: 2px solid rgb(0,187,187);
+      display: inline-block;
+      padding-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    ul {
+      text-align: justify;
+    }
+
+  }
+
+}
+
+/*
+  END INFO-SECTION
+*/
