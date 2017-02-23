@@ -4,6 +4,12 @@
 
 .market-section {
   width: 100%;
+  @include clearfix;
+}
+
+.market-menu {
+	height: 100%;
+	@include clearfix;
 }
 
 .market-menu--white {
@@ -15,16 +21,27 @@
 }
 
 .menu-wrapper {
+	@include clearfix;
 
 	ul {
 		list-style: none;
+		@include clearfix;
+
+		.market-menu-item:not(:first-child) {
+			width: 15%;
+		}
 
 		a {
 			color: black;
 			text-transform: uppercase;
 
-			.responsive-img {
-				width: 46%;
+			&:hover {
+				
+				.responsive-img {
+					opacity: .7;
+    			transition: opacity .2s ease;
+				}
+
 			}
 
 		}

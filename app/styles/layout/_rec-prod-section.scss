@@ -13,7 +13,7 @@
   @include flex-direction(row);
   @include flexbox;
   @include justify-content(space-around);
-  padding: 3% 0;
+  padding: 1% 0 3%;
 }
 
 .rec-prod-item {
