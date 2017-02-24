@@ -1,0 +1,21 @@
+/*
+  ADDRESS-SECTION
+*/
+
+.address-section {
+  padding-top: 4.5%;
+  text-align: center;
+  width: 100%;
+
+  .container {
+    @include align-items(center);
+    @include flex-direction(row);
+    @include flexbox;
+    @include justify-content(space-between);
+  }
+
+}
+
+/*
+  END ADDRESS-SECTION
+*/

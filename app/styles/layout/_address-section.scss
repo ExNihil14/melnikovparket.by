@@ -1,0 +1,49 @@
+/*
+  ADDRESS-SECTION
+*/
+
+.address-section {
+  padding-top: 4.5%;
+  text-align: left;
+  width: 100%;
+
+  .container {
+    @include align-items(flex-start);
+    @include flex-direction(row);
+    @include flexbox;
+    @include justify-content(space-between);
+  }
+
+}
+
+.rigth {
+  @include align-items(flex-start);
+  @include flex-direction(column);
+  @include flexbox;
+  @include justify-content(space-between);
+  padding-left: 3%;
+  width: 50%;
+
+  h4 {
+    border-bottom: 2px solid rgb(0,187,187);
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  a {
+    color: black;
+    margin-bottom: 2%;
+
+    span {
+      font-size: 16px;
+    }
+
+  }
+
+}
+
+/*
+  END ADDRESS-SECTION
+*/

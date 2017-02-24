@@ -66,6 +66,7 @@
 
   li {
     list-style: disc;
+    margin-bottom: 2%;
 
     a {
       text-decoration: underline;
@@ -82,6 +83,17 @@
   @include flex-direction(column);
   @include flexbox;
   @include justify-content(space-around);
+
+  a {
+    margin-bottom: 3%;
+    color: black;
+
+    span {
+      font-size: 18px;
+    }
+
+  }
+
 }
 
 /*
