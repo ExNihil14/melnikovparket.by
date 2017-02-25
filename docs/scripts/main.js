@@ -18,5 +18,7 @@ $(document).ready(function () {
 		slidesToScroll: 1
 
 	});
+
+	$(".button-collapse").sideNav();
 });
 //# sourceMappingURL=main.js.map
