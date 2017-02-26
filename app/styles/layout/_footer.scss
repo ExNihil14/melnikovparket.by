@@ -53,6 +53,15 @@
     text-transform: none;
     font-size: 14px;
   }
+    
+  @media (max-width: 830px) {
+    flex-flow: row wrap;
+
+    &>div:first-child {
+      flex: 1 0 100%;
+    }
+
+  }
 
 }
 
@@ -67,9 +76,8 @@
     flex: 1 0 100%;
   }
 
-  @media (max-width: 747px) {
-    width: 20%;
-    flex-flow: column wrap;
+  @media (max-width: 830px) {
+    flex-flow: row wrap;
   }
 
   h5 {
@@ -106,10 +114,14 @@
 .footer-item {
 
   p {
-    @media (max-width: 747px) {
+    @media (max-width: 380x) {
       font-size: 10px;
     }
 
+  }
+
+  span {
+    font-weight: 600;
   }
     
 }
@@ -127,7 +139,7 @@
     span {
       font-size: 18px;
       
-      @media (max-width: 747px) {
+      @media (max-width: 380px) {
         font-size: 14px;
       }
 

@@ -56,13 +56,23 @@
   .slick-prev {
     height: 40px;        
     left: 10px;
-    z-index: 1;    
+    z-index: 1;
+
+    @media (max-width: 480px) {
+      display: none;
+    }
+
   }
 
   .slick-next {
     height: 40px;
     right: 10px;
     z-index: 1;
+
+    @media (max-width: 480px) {
+      display: none;
+    }
+    
   }
 
 }
