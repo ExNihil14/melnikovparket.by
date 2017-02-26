@@ -199,3 +199,41 @@ h5 {
 h5,p,a {
   font-size: 12px;
 }
+
+.modal-market {
+  background-color: rgba(0, 0, 0, 0.35);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 15;
+
+  div {
+    background-color: white;
+    margin-left: 33%;
+    margin-top: 15%;
+    padding: 25px;
+    position: fixed;
+    text-align: center;
+    width: 33%;
+  }
+
+  span {
+    background-color: rgb(0,187,187);
+    border-radius: 18px;
+    color: white;
+    float: right;
+    font-size: 18pt;
+    font-weight: 800;
+    padding: 0 9px;
+
+    &:hover {
+      opacity:0.7;
+      transition: opacity 0.2s ease;
+      cursor: pointer;
+    }
+
+  }
+
+}

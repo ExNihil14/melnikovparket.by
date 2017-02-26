@@ -51,16 +51,42 @@
   @include flex-direction(row);
   @include flexbox;
   @include justify-content(center);
+  
+  @media (max-width: 480px) {
+    @include flex-direction(column);
+  }
+
 }
 
 .service-item {
-
   padding: 0 2%;
 
   h4 {
     border-bottom: 2px solid rgb(0,187,187);
     padding-bottom: 10px;
     text-transform: uppercase;
+    
+    @media (max-width: 895px) {
+      font-size: 10px;
+    }
+
+    @media (max-width: 480px) {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+
+  }
+
+  p {
+
+    @media (max-width: 930px) {
+      font-size: 10px;
+    }
+
+    @media (max-width: 480px) {
+      padding: 2% 15%;
+    }
+
   }
 
 }

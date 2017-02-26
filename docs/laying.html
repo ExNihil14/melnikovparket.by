@@ -102,21 +102,56 @@
     <section class="rec-prod-section">
       <h2>Рекомендуемые товары</h2>
       <div class="container rec-prod-wrapper">
-        <div class="rec-prod-item">
-          <img src="images/palmann/palmann-x-96.jpg" alt="" class="responsive-img">
+        <div class="rec-prod-item" id="u123">
+          <img src="images/palmann/palmann-x-96.jpg" alt="Паркетный лак Palman Pall X 96" class="responsive-img">
           <h5>Palman Pall X 96</h5>
+          <div class="modal-market" hidden>
+            <div>
+              <span class="close">X</span>
+              <img src="images/market/palmann/palmann-x-96.jpg" alt="Palman Pall X 96">
+              <h6>Palman Pall X 96</h6>
+              <p>Однокомпонентный водный лак для паркета, применяемый для паркетных и деревянных напольных покрытий</p>
+              <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
+            </div>
+          </div>
         </div>
-        <div class="rec-prod-item">
-          <img src="images/anser/anser-glue.jpg" alt="" class="responsive-img">
+        <div class="rec-prod-item" id="u17">
+          <img src="images/anser/anser-glue.jpg" alt="Клей Ansercoll" class="responsive-img">
           <h5>Клей Ansercoll</h5>
+          <div class="modal-market" hidden>
+            <div>
+              <span class="close">X</span>
+              <img src="images/market/anser/anser-glue.jpg" alt="Клей Ansercoll">
+              <h6>Клей Ansercoll</h6><p>Предназначен для приклеивания традиционного паркета, паркетной мозаики, паркета из экзотического дерева, по цементным и деревянным основаниям</p>
+              <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
+            </div>
+          </div>
         </div>
-        <div class="rec-prod-item">
-          <img src="images/bona/bona-mega.jpg" alt="" class="responsive-img">
+        <div class="rec-prod-item" id="u4">
+          <img src="images/bona/bona-mega.jpg" alt="Паркетный лак Bona Mega" class="responsive-img">
           <h5>Паркетный лак Bona Mega</h5>
+          <div class="modal-market" hidden>
+            <div>
+              <span class="close">X</span>
+              <img src="images/market/bona/bona-mega.jpg" alt="Паркетный лак Bona Mega">
+              <h6>Паркетный лак Bona Mega</h6>
+              <p>Предназначенный для паркетных полов вододисперсионный однокомпонентный лак. Основан на модифицированной полиуретановой дисперсии, благодаря чему является экологически чистым и устойчивым к истиранию</p>
+              <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
+            </div>
+          </div>
         </div>
-        <div class="rec-prod-item">
-          <img src="images/osmo/osmo-original.jpg" alt="" class="responsive-img">
+        <div class="rec-prod-item" id="u33">
+          <img src="images/osmo/osmo-original.jpg" alt="Масло Osmo Original" class="responsive-img">
           <h5>Масло Osmo Original</h5>
+          <div class="modal-market" hidden>
+            <div>
+              <span class="close">X</span>
+              <img src="images/market/osmo/osmo-original.jpg" alt="Масло Osmo Original">
+              <h6>Масло Osmo Original</h6>
+              <p>Бесцветное покрытие для внутренних работ. Подходит для паркета, массивной и паркетной доски, а также пробковых полов. Подчеркивает естественную красоту деревянной поверхности.</p>
+              <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
+            </div>
+          </div>
         </div>
       </div>
       <a href="" class="waves-effect waves-light btn">Перейти в магазин</a>
@@ -124,7 +159,7 @@
 
     <footer class="footer">
       <div class="footer-wrapper">
-        <div class="footer-item">
+        <div class="footer-item-menu">
           <h5>Карта сайта</h5>
           <ul class="footer-menu">
             <li><a href="parquet.html">Паркет</a></li>
@@ -140,8 +175,8 @@
           <ul class="footer-menu">
             <li><a href="index.html">Главная</a></li>
             <li><a href="">Наши работы</a></li>
-            <li><a href="">Статьи</a></li>
-            <li><a href="">Контакты</a></li>
+            <li><a href="blog.html">Статьи</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
           </ul>
         </div>
         <div class="footer-item">
@@ -172,7 +207,9 @@
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="scripts/slick.js"></script> 
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbower -->
     <!-- endbuild -->

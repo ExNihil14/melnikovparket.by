@@ -3,8 +3,18 @@
 */
 
 .slider-section {
+  margin-top: 3%;
   overflow: hidden;
   width: 100%;
+
+  @media (max-width: 676px) {
+    margin-top: 8%;
+  }
+
+  @media (max-width: 454px) {
+    margin-top: 11%;
+  }
+
 }
 
 .slick-slide {
@@ -18,8 +28,8 @@
   top: 40%;
   text-align: left;
 
-  @media (max-width: 992px) {
-    top: 50%;
+  @media (max-width: 676px) {
+    top: 40%;
   }
 
   h1 {
@@ -28,6 +38,15 @@
     font-weight: 400;
     margin: 5px 15px;
     text-transform: uppercase;
+
+    @media (max-width: 676px) {
+      font-size: 1.92rem;
+    }
+
+    @media (max-width: 454px) {
+      font-size: 0.92rem;
+    }
+
   }
 
   h3 {
@@ -36,10 +55,15 @@
     font-weight: 400;    
     margin: 5px 15px;
     text-transform: uppercase;
+
+    @media (max-width: 454px) {
+      font-size: 8px;
+    }
+
   }
 
   hr {
-    width: 400px;
+    width: 55%;
   }
 
 }

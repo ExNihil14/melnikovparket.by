@@ -46,6 +46,7 @@
   @include flex-direction(row);
   @include flexbox;
   @include justify-content(space-around);
+  padding: 0 2%;
 
   h5 {
     font-weight: bold;
@@ -55,14 +56,38 @@
 
 }
 
+.footer-item-menu {
+  @include align-items(flex-start);
+  @include flexbox;
+  @include justify-content(space-around);
+  flex-flow: row wrap;
+  width: 45%;
+
+  &>h5 {
+    flex: 1 0 100%;
+  }
+
+  @media (max-width: 747px) {
+    width: 20%;
+    flex-flow: column wrap;
+  }
+
+  h5 {
+    margin-left: 3%;
+  }
+
+}
+
 .footer-menu {
   @include align-items(flex-start);
   @include flex-direction(column);
   @include flexbox;
   @include justify-content(center);
+  flex-flow: row wrap;
   display: inline-block;
   list-style: disc;
   margin-top: 0;
+  padding-left: 5%;  
 
   li {
     list-style: disc;
@@ -78,6 +103,17 @@
 
 }
 
+.footer-item {
+
+  p {
+    @media (max-width: 747px) {
+      font-size: 10px;
+    }
+
+  }
+    
+}
+
 .footer-item-phone {
   @include align-items(flex-start);
   @include flex-direction(column);
@@ -90,6 +126,11 @@
 
     span {
       font-size: 18px;
+      
+      @media (max-width: 747px) {
+        font-size: 14px;
+      }
+
     }
 
   }

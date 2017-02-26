@@ -27,6 +27,14 @@
     text-align: justify;
   }
 
+  a {
+
+    @media (max-width: 385px) {
+      font-size: 8px;
+    }
+    
+  }
+
 }
 
 /*

@@ -14,6 +14,12 @@
   @include flexbox;
   @include justify-content(space-around);
   padding: 1% 0 3%;
+
+
+  @media (max-width: 560px) {
+    @include flex-direction(column);
+  }
+
 }
 
 .rec-prod-item {
@@ -22,6 +28,11 @@
   opacity: 1;
   text-align: center;
   width: 23%;
+
+  @media (max-width: 560px) {
+    width: 50%;
+    margin-bottom: 3%;
+  }
 
   .responsive-img {
 
@@ -35,6 +46,18 @@
 
   h5 {
     margin: 10% 0;
+
+    @media (max-width: 879px) {
+      font-size: 10px;
+    }
+
+    @media (max-width: 730px) {
+      font-size: 8px;
+    }
+
+    @media (max-width: 560px) {
+      font-size: 12px;;
+    }
 
     &:hover {
       cursor: pointer;
