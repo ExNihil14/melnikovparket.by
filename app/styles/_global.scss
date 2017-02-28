@@ -211,18 +211,34 @@ p,a {
   width: 100%;
   z-index: 15;
 
+  @media (max-width: 385px) {
+      font-size: 8px;
+  }
+
   div {
     background-color: white;
     margin-left: 33%;
-    margin-top: 15%;
+    margin-top: 40%;
     padding: 25px;
     position: fixed;
     text-align: center;
     width: 33%;
+
+    @media (max-width: 480px) {
+      width: 60%;
+      margin-left: 20%;
+      margin-top: 40%;
+      padding: 10px;
+    }
   }
 
   p {
-    text-align: justify;
+    text-align: center;
+
+    @media (max-width: 480px) {
+      font-size: 8px;
+    }
+
   }
 
   span {
