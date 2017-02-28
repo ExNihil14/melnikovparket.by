@@ -195,8 +195,10 @@ font-size: 16px;
 }
 h5 {
   text-transform: uppercase;
+  font-size: 12px;
 }
-h5,p,a {
+
+p,a {
   font-size: 14px;
 }
 
@@ -217,6 +219,10 @@ h5,p,a {
     position: fixed;
     text-align: center;
     width: 33%;
+  }
+
+  p {
+    text-align: justify;
   }
 
   span {

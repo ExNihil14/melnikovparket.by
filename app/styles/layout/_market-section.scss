@@ -8,45 +8,115 @@
 }
 
 .market-menu {
-	height: 100%;
-	@include clearfix;
+  height: 100%;
+  @include clearfix;
+
+  a {
+    color: rgb(0,187,187);
+    width: 50%;
+
+    i {
+      margin-right: 2%;
+      display: inline-block;
+    }
+    
+  }
+
 }
 
 .market-menu--white {
-	background-color: white;
+  background-color: white;
+  line-height: 40px;
 }
 
 .market-menu--grey {
-	background-color: lightgray;
+  background-color: lightgray;
+  line-height: 40px;
 }
 
 .menu-wrapper {
-	@include clearfix;
+  @include clearfix;
 
-	ul {
-		list-style: none;
-		@include clearfix;
+  .side-nav {
+    @include clearfix;
+    background-color: lightgray;
+    padding-top: 2%;
+    text-align: left;
 
-		.market-menu-item:not(:first-child) {
-			width: 15%;
-		}
+    .active {
+      border-radius: 5px;
+      background-color: rgb(0,187,187);
+    }
 
-		a {
-			color: black;
-			text-transform: uppercase;
 
-			&:hover {
-				
-				.responsive-img {
-					opacity: .7;
-    			transition: opacity .2s ease;
-				}
+    .active_brand {
+      border-radius: 5px;
+      background-color: rgb(0,187,187);
+    }
 
-			}
+    li:first-child {
+      width: 25%;
+    }
 
-		}
 
-	}
+    li {
+      color: black;
+      list-style-type: none;
+      margin-bottom: 2%;
+      padding: 0 15px 0 15px;
+      text-transform: uppercase;
+      width: 90%;
+    }
+
+  }
+
+  .left {
+    @include clearfix;
+    list-style: none;
+    margin: 10px 0 10px 4%;
+
+    .market-menu-item:not(:first-child) {
+      width: 15%;
+    }
+
+    .active {
+      border-radius: 5px;
+      background-color: rgb(0,187,187);
+    }
+
+
+    .active_brand {
+      border-radius: 5px;
+      background-color: rgb(0,187,187);
+    }
+
+    li {
+      color: black;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 1.17em;
+      list-style-type: none;
+      opacity: 1;
+      padding: 0 15px 0 15px;
+      text-transform: uppercase;
+      
+      &:hover {
+        background-color: lightgray;
+        border-radius: 5px;
+        color: rgb(0, 187, 187);
+        opacity: 0.7; 
+        transition: opacity 0.2s ease;
+        
+        .responsive-img {
+          opacity: .7;
+          transition: opacity .2s ease;
+        }
+
+      }
+
+    }
+
+  }
 
 }
 /*

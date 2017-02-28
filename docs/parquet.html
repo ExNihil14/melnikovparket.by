@@ -67,205 +67,221 @@
     <section class="market-section">
       <nav class="market-menu market-menu--white">
         <div class="menu-wrapper">
+          <a href="#" data-activates="mobile-market-item" class="button-collapse"><i class="material-icons">store</i> Выберите товар</a>
           <ul id="nav-mobile" class="left hide-on-med-and-down">
-            <li><a id="all" href="">все</a></li>
-            <li><a id="mas" href="">штучный паркет</a></li>
-            <li><a id="mas" href="">паркетная доска</a></li>
-            <li><a id="mas" href="">блочный паркет</a></li>
-            <li><a id="mas" href="">паркетная химия</a></li>
-            <li><a id="mas" href="">художественный паркет</a></li>
+            <li id="all" class="active">все</li>
+            <li id="mas">штучный паркет</li>
+            <li id="mas">паркетная доска</li>
+            <li id="mas">блочный паркет</li>
+            <li id="mas">паркетная химия</li>
+            <li id="mas">художественный паркет</li>
+          </ul>
+          <ul class="side-nav" id="mobile-market-item">
+            <li id="all" class="active">все</li>
+            <li id="mas">штучный паркет</li>
+            <li id="mas">паркетная доска</li>
+            <li id="mas">блочный паркет</li>
+            <li id="mas">паркетная химия</li>
+            <li id="mas">художественный паркет</li>
           </ul>
         </div>
       </nav>
       <nav class="market-menu market-menu--grey">
         <div class="menu-wrapper">
+          <a href="#" data-activates="mobile-market-brend" class="button-collapse"><i class="material-icons">stars</i> Выберите марку товара</a>
           <ul id="nav-mobile" class="left hide-on-med-and-down">
-            <li id="all_brand" class="market-menu-item"><a href="">все</a></li>
-            <li id="lyaskovichi" class="market-menu-item"><a href=""><img src="images/logo/lyaskovichi.png" alt="" class="responsive-img"></a></li>
-            <li id="coswick" class="market-menu-item"><a href=""><img src="images/logo/coswick.png" alt="" class="responsive-img"></a></li>
-            <li id="tarkett" class="market-menu-item"><a href=""><img src="images/logo/tarkett.png" alt="" class="responsive-img"></a></li>
+            <li id="all_brand" class="market-menu-item active_brand">все</li>
+            <li id="lyaskovichi" class="market-menu-item"><img src="images/logo/lyaskovichi.png" alt="" class="responsive-img"></li>
+            <li id="coswick" class="market-menu-item"><img src="images/logo/coswick.png" alt="" class="responsive-img"></li>
+            <li id="tarkett" class="market-menu-item"><img src="images/logo/tarkett.png" alt="" class="responsive-img"></li>
+          </ul>
+          <ul class="side-nav" id="mobile-market-brend">
+            <li id="all_brand" class="market-menu-item active_brand">все</li>
+            <li id="lyaskovichi" class="market-menu-item"><img src="images/logo/lyaskovichi.png" alt="" class="responsive-img"></li>
+            <li id="coswick" class="market-menu-item"><img src="images/logo/coswick.png" alt="" class="responsive-img"></li>
+            <li id="tarkett" class="market-menu-item"><img src="images/logo/tarkett.png" alt="" class="responsive-img"></li>
           </ul>
         </div>
       </nav>
     </section>
 
     <section class="goods-section" id="results">
-      <div class="goods-item" id="ul1">
-        <img src="images/parquet/lyaskovichi/radial.jpg" alt="Штучный паркет «Лясковичи» Радиал"" class="responsive-img">
+      <div class="goods-item position" id="ul1">
+        <img src="images/parquet/lyaskovichi/radial.jpg" alt="Штучный паркет «Лясковичи» Радиал"" class="responsive-img preview">
         <h5>Штучный паркет «Лясковичи» Радиал</h5>
         <div class="modal-market" hidden>
           <div>
             <span class="close">X</span>
-            <img src="images/parket/lyaskovichi/radial.jpg" alt="Штучный паркет «Лясковичи» Радиал">
+            <img src="images/parquet/lyaskovichi/radial.jpg" alt="Штучный паркет «Лясковичи» Радиал">
             <h6>Штучный паркет «Лясковичи» Радиал</h6>
             <p>Однородные и однотонные по текстуре планки древесины с небольшим коэффициентом линейного расширения. Устойчив к внешним ваздействиям.</p>
             <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
           </div>
         </div>
       </div>
-      <div class="goods-item" id="ul2">
-        <img src="images/parquet/lyaskovichi/rustik.jpg" alt="Штучный паркет «Лясковичи» Рустик" class="responsive-img">
+      <div class="goods-item position" id="ul2">
+        <img src="images/parquet/lyaskovichi/rustik.jpg" alt="Штучный паркет «Лясковичи» Рустик" class="responsive-img preview">
         <h5>Штучный паркет «Лясковичи» Рустик</h5>
         <div class="modal-market" hidden>
           <div>
             <span class="close">X</span>
-            <img src="images/parket/lyaskovichi/rustik.jpg" alt="Штучный паркет «Лясковичи» Рустик">
+            <img src="images/parquet/lyaskovichi/rustik.jpg" alt="Штучный паркет «Лясковичи» Рустик">
             <h6>Штучный паркет «Лясковичи» Рустик</h6>
             <p>Светлый оттенок паркету придает наличие заболони. Белесые полосы молодой древесины у коры дерева придают паркету уникальный внешний вид</p>
             <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
           </div>
         </div>
       </div>      
-      <div class="goods-item" id="ul3">
-        <img src="images/parquet/lyaskovichi/natur.jpg" alt="Штучный паркет «Лясковичи» Натур" class="responsive-img">
+      <div class="goods-item position" id="ul3">
+        <img src="images/parquet/lyaskovichi/natur.jpg" alt="Штучный паркет «Лясковичи» Натур" class="responsive-img preview">
         <h5>Штучный паркет «Лясковичи» Натур</h5>
         <div class="modal-market" hidden>
           <div>
             <span class="close">X</span>
-            <img src="images/parket/lyaskovichi/natur.jpg" alt="Штучный паркет «Лясковичи» Натур">
+            <img src="images/parquet/lyaskovichi/natur.jpg" alt="Штучный паркет «Лясковичи» Натур">
             <h6>Штучный паркет «Лясковичи» Натур</h6>
             <p>Паркет с яркой и насыщенной текстурой тангенциального распила, который придает паркету арочный рисунок.</p>
             <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
           </div>
         </div>
       </div>
-      <div class="goods-item" id="ul4">
-        <img src="images/parquet/lyaskovichi/standart.jpg" alt="Штучный паркет «Лясковичи» Стандарт" class="responsive-img">
+      <div class="goods-item position" id="ul4">
+        <img src="images/parquet/lyaskovichi/standart.jpg" alt="Штучный паркет «Лясковичи» Стандарт" class="responsive-img preview">
         <h5>Штучный паркет «Лясковичи» Стандарт</h5>
         <div class="modal-market" hidden>
           <div>
             <span class="close">X</span>
-            <img src="images/parket/lyaskovichi/standart.jpg" alt="Штучный паркет «Лясковичи» Стандарт">
+            <img src="images/parquet/lyaskovichi/standart.jpg" alt="Штучный паркет «Лясковичи» Стандарт">
             <h6>Штучный паркет «Лясковичи» Стандарт</h6>
             <p>Различный по распилу и текстуре паркет с наличием сучков, благодаря чему придает  естественный вид напольному покрытию.</p>
             <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
           </div>
         </div>
       </div>
-      <div class="goods-item" id="ul5">
-        <img src="images/parquet/lyaskovichi/classic.jpg" alt="Штучный паркет «Лясковичи» Классик" class="responsive-img">
+      <div class="goods-item position" id="ul5">
+        <img src="images/parquet/lyaskovichi/classic.jpg" alt="Штучный паркет «Лясковичи» Классик" class="responsive-img preview">
         <h5>Штучный паркет «Лясковичи» Классик</h5>
         <div class="modal-market" hidden>
           <div>
             <span class="close">X</span>
-            <img src="images/parket/lyaskovichi/classic.jpg" alt="Штучный паркет «Лясковичи» Классик">
+            <img src="images/parquet/lyaskovichi/classic.jpg" alt="Штучный паркет «Лясковичи» Классик">
             <h6>Штучный паркет «Лясковичи» Классик</h6>
             <p>Паркет с однотонной и естественной текстурой с тангециальными и радиальными структурами. Отличается оптимальным соотношением цены и качества.</p>
             <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
           </div>
         </div>
       </div>
-      <div class="goods-item" id="ul6">
-        <img src="images/parquet/tarkett/tarkett-klassika.jpg" alt="" class="responsive-img">
+      <div class="goods-item position" id="ul6">
+        <img src="images/parquet/tarkett/tarkett-klassika.jpg" alt="" class="responsive-img preview">
         <h5>Паркетная доска Tarkett Klassika</h5>
         <div class="modal-market" hidden>
           <div>
             <span class="close">X</span>
-            <img src="images/parket/tarkett/tarkett-klassika.jpg" alt="Паркетная доска Tarkett Klassika">
+            <img src="images/parquet/tarkett/tarkett-klassika.jpg" alt="Паркетная доска Tarkett Klassika">
             <h6>Паркетная доска Tarkett Klassika</h6>
             <p>Классическая коллекция паркетной трехполосной трехслойной доски Tarktett Klassika. В коллекции представлены три породы дерева: дуб, бук и ясень</p>
             <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
           </div>
         </div>
       </div>
-      <div class="goods-item" id="ul7">
-        <img src="images/parquet/tarkett/tarkett-rumba.jpg" alt="Паркетная доска Tarktett Rumba" class="responsive-img">
+      <div class="goods-item position" id="ul7">
+        <img src="images/parquet/tarkett/tarkett-rumba.jpg" alt="Паркетная доска Tarktett Rumba" class="responsive-img preview">
         <h5>Паркетная доска Tarktett Rumba</h5>
         <div class="modal-market" hidden>
           <div>
             <span class="close">X</span>
-            <img src="images/parket/tarkett/tarkett-rumba.jpg" alt="Паркетная доска Tarktett Rumba">
+            <img src="images/parquet/tarkett/tarkett-rumba.jpg" alt="Паркетная доска Tarktett Rumba">
             <h6>Паркетная доска Tarktett Rumba</h6>
             <p>Новая коллекция однополосной трехслойной паркетной доски Tarktett Rumba. В коллекции представлена доска из ясеня и дуба с 9 различными оттенками и текстурами.</p>
             <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
           </div>
         </div>
       </div>
-      <div class="goods-item" id="ul8">
-        <img src="images/parquet/tarkett/tarkett-salsa.jpg" alt="Паркетная доска Tarkett Salsa" class="responsive-img">
+      <div class="goods-item position" id="ul8">
+        <img src="images/parquet/tarkett/tarkett-salsa.jpg" alt="Паркетная доска Tarkett Salsa" class="responsive-img preview">
         <h5>Паркетная доска Tarkett Salsa</h5>
         <div class="modal-market" hidden>
           <div>
             <span class="close">X</span>
-            <img src="images/parket/tarkett/tarkett-salsa.jpg" alt="Паркетная доска Tarkett Salsa">
+            <img src="images/parquet/tarkett/tarkett-salsa.jpg" alt="Паркетная доска Tarkett Salsa">
             <h6>Паркетная доска Tarkett Salsa</h6>
             <p>Коллекция трехполосной трехслойной паркетной доски Tarkett Salsa из дуба, ясеня 10 различных оттенков и фактур.</p>
             <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
           </div>
         </div>
       </div>
-      <div class="goods-item" id="ul9">
-        <img src="images/parquet/tarkett/tarkett-tango.jpg" alt="Паркетная доска Tarkett Tango" class="responsive-img">
+      <div class="goods-item position" id="ul9">
+        <img src="images/parquet/tarkett/tarkett-tango.jpg" alt="Паркетная доска Tarkett Tango" class="responsive-img preview">
         <h5>Паркетная доска Tarkett Tango</h5>
         <div class="modal-market" hidden>
           <div>
             <span class="close">X</span>
-            <img src="images/parket/tarkett/tarkett-tango.jpg" alt="Паркетная доска Tarkett Tango">
+            <img src="images/parquet/tarkett/tarkett-tango.jpg" alt="Паркетная доска Tarkett Tango">
             <h6>Паркетная доска Tarkett Tango</h6>
             <p>Коллекция эксклюзивной однополосной трехслойной паркетной доски с фаской из ясеня и дуба.</p>
             <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
           </div>
         </div>
       </div>
-      <div class="goods-item" id="ul10">
-        <img src="images/parquet/coswick/coswick-auth-dub.jpg" alt="Паркетная доска Coswick Авторская коллекция дуб" class="responsive-img">
+      <div class="goods-item position" id="ul10">
+        <img src="images/parquet/coswick/coswick-auth-dub.jpg" alt="Паркетная доска Coswick Авторская коллекция дуб" class="responsive-img preview">
         <h5>Паркетная доска Coswick Авторская коллекция дуб</h5>
         <div class="modal-market" hidden>
           <div>
             <span class="close">X</span>
-            <img src="images/parket/coswick/coswick-auth-dub.jpg" alt="Паркетная доска Tarkett Tango">
+            <img src="images/parquet/coswick/coswick-auth-dub.jpg" alt="Паркетная доска Tarkett Tango">
             <h6>Паркетная доска Coswick авторская коллекция дуб</h6>
             <p>Коллекция трехслойной паркетной доски из дуба 7 различных оттенков.</p>
             <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
           </div>
         </div>
       </div>
-      <div class="goods-item" id="ul11">
-        <img src="images/parquet/coswick/coswick-vek-dub.jpg" alt="Паркетная доска Coswick коллекция вековые традиции дуб" class="responsive-img">
+      <div class="goods-item position" id="ul11">
+        <img src="images/parquet/coswick/coswick-vek-dub.jpg" alt="Паркетная доска Coswick коллекция вековые традиции дуб" class="responsive-img preview">
         <h5>Паркетная доска Coswick коллекция вековые традиции дуб</h5>
         <div class="modal-market" hidden>
           <div>
             <span class="close">X</span>
-            <img src="images/parket/coswick/coswick-vek-dub.jpg" alt="Паркетная доска Coswick коллекция вековые традиции дуб">
+            <img src="images/parquet/coswick/coswick-vek-dub.jpg" alt="Паркетная доска Coswick коллекция вековые традиции дуб">
             <h6>Паркетная доска Coswick коллекция вековые традиции дуб</h6>
             <p>Коллекция массивной и трехслойно паркетной доски, покрытой 4 слоями масла.</p>
             <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
           </div>
         </div>
       </div>
-      <div class="goods-item" id="ul12">
-        <img src="images/parquet/coswick/coswick-exotic.jpg" alt="Паркетная доска Coswick экзотическая коллекция" class="responsive-img">
+      <div class="goods-item position" id="ul12">
+        <img src="images/parquet/coswick/coswick-exotic.jpg" alt="Паркетная доска Coswick экзотическая коллекция" class="responsive-img preview">
         <h5>Паркетная доска Coswick экзотическая коллекция</h5>
         <div class="modal-market" hidden>
           <div>
             <span class="close">X</span>
-            <img src="images/parket/coswick/coswick-exotic.jpg" alt="Паркетная доска Coswick экзотическая коллекция">
+            <img src="images/parquet/coswick/coswick-exotic.jpg" alt="Паркетная доска Coswick экзотическая коллекция">
             <h6>Паркетная доска Coswick экзотическая коллекция</h6>
             <p>Коллекция двухслойной и трехслойной доски из экзотических пород дерева, включая ятоба, махагон, американский орех, покрытых 12 слоями лака ультрафиолетового отверждения с содержанием корунда.</p>
             <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
           </div>
         </div>
       </div>
-      <div class="goods-item" id="ul13">
-        <img src="images/parquet/coswick/coswick-auth-yasen.jpg" alt="Паркетная доска Coswick авторская коллекция ясень" class="responsive-img">
+      <div class="goods-item position" id="ul13">
+        <img src="images/parquet/coswick/coswick-auth-yasen.jpg" alt="Паркетная доска Coswick авторская коллекция ясень" class="responsive-img preview">
         <h5>Паркетная доска Coswick авторская коллекция ясень</h5>
         <div class="modal-market" hidden>
           <div>
             <span class="close">X</span>
-            <img src="images/parket/coswick/coswick-auth-yasen.jpg" alt="Паркетная доска Coswick авторская коллекция ясень">
+            <img src="images/parquet/coswick/coswick-auth-yasen.jpg" alt="Паркетная доска Coswick авторская коллекция ясень">
             <h6>Паркетная доска Coswick авторская коллекция ясень</h6>
             <p>Коллекция массивной и трехслойной паркетной доски, покрытой 12 слоями лака ультрафиолетового отверждения с содержанием корунда.</p>
             <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
           </div>
         </div>
       </div>
-      <div class="goods-item" id="ul14">
-        <img src="images/parquet/coswick/coswick-classic-yasen.jpg" alt="Паркетная доска Coswick коллекция классический ясень" class="responsive-img">
+      <div class="goods-item position" id="ul14">
+        <img src="images/parquet/coswick/coswick-classic-yasen.jpg" alt="Паркетная доска Coswick коллекция классический ясень" class="responsive-img preview">
         <h5>Паркетная доска Coswick коллекция классический ясень</h5>
         <div class="modal-market" hidden>
           <div>
             <span class="close">X</span>
-            <img src="images/parket/coswick/coswick-classic-yasen.jpg" alt="Паркетная доска Coswick коллекция классический ясень">
+            <img src="images/parquet/coswick/coswick-classic-yasen.jpg" alt="Паркетная доска Coswick коллекция классический ясень">
             <h6>Паркетная доска Coswick коллекция классический ясень</h6>
             <p>Коллекция массивной, двухслойной и трехслойной паркетной доски, покрытой 12 слоев лака ультрафиолетового отверждения с содержанием корунда и 4 слоями защитного покрытия масла.</p>
             <a href="" id="button" class="waves-effect waves-light btn" onclick="orderButton(this);">Заказать</a>
@@ -328,7 +344,7 @@
           </ul>
         </div>
         <div class="footer-item">
-          <a href="mailto:valentina_parket@mail.ru"><strong>valentina_parket@mail.ru</strong></a>
+          <a href="mailto:valentina_parquet@mail.ru"><strong>valentina_parquet@mail.ru</strong></a>
           <p>ИП Мельникова В.Н. УНП 400250843<br/>
           <br/>
           г.Гомель, Беларусь<br/>
