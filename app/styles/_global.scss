@@ -224,6 +224,13 @@ p,a {
     text-align: center;
     width: 33%;
 
+    @media (max-width: 750px) {
+      width: 55%;
+      margin-left: 23%;
+      margin-top: 20%;
+      padding: 15px;
+    }
+
     @media (max-width: 480px) {
       width: 60%;
       margin-left: 20%;
