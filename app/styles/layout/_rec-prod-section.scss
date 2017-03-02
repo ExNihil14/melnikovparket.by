@@ -25,13 +25,19 @@
 .rec-prod-item {
   background-color: white;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
+  height: auto;
   opacity: 1;
   text-align: center;
   width: 23%;
 
   @media (max-width: 560px) {
-    width: 50%;
     margin-bottom: 3%;
+    width: 40%;
+  }
+
+  @media (max-width: 480px) {
+    margin-bottom: 3%;
+    width: 60%;
   }
 
   .responsive-img {
@@ -47,6 +53,10 @@
   h5 {
     margin: 10% 0;
 
+    @media (max-width: 1280px) {
+      font-size: 9.5px;
+    }
+
     @media (max-width: 879px) {
       font-size: 10px;
     }
@@ -56,7 +66,7 @@
     }
 
     @media (max-width: 560px) {
-      font-size: 12px;;
+      font-size: 12px;
     }
 
     &:hover {
