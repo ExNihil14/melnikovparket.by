@@ -116,12 +116,13 @@ html {
 
 // Default body styles
 body {
-  margin: 0;
-  padding: 0; 
+  background-color: #F9F9F9;
+  color: $body-font-color;
   font-family: $body-font-family;
   font-weight: $global-weight-normal;
   line-height: $global-lineheight;
-  color: $body-font-color;
+  margin: 0;
+  padding: 0; 
 }
 
 img {
@@ -218,7 +219,7 @@ p,a {
   div {
     background-color: white;
     margin-left: 33%;
-    margin-top: 40%;
+    margin-top: 15%;
     padding: 25px;
     position: fixed;
     text-align: center;
