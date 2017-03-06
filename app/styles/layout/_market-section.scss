@@ -14,10 +14,22 @@
   a {
     color: rgb(0,187,187);
     width: 70%;
+    position: relative;
 
     i {
       margin-right: 2%;
       display: inline-block;
+    }
+
+    span {
+      position: absolute;
+      top: 0;
+      left: 30px;
+
+      @media (max-width: 600px) {
+        top: 8px;
+      }
+
     }
     
   }

@@ -16,11 +16,13 @@
   width: 100%;
 
   @media (max-width: 540px) {
-    @include justify-content(space-around);
+    @include justify-content(center);
+    margin-left: 0;
   }
 
   @media (max-width: 480px) {
     @include justify-content(center);
+    margin-left: 0;
   }
 }
 
@@ -35,7 +37,12 @@
   height: 225px;
 
   @media (min-width: 1361px) and (max-width: 1920px) {
-    height: 230px;
+    height: 250px;
+  }
+
+  @media (max-width: 1200px) {
+    width: 17%;
+    height: 210px;
   }
 
   @media (max-width: 960px) {
@@ -44,18 +51,18 @@
   }
 
   @media (max-width: 750px) {
-    width: 25%;
-    height: 180px;
+    width: 27%;
+    height: 185px;
   }
 
   @media (max-width: 540px) {
-    width: 35%;
-    height: 170px;
+    width: 40%;
+    height: 200px;
   }
 
   @media (max-width: 480px) {
-    width: 60%;
-    height: 225px;
+    width: 70%;
+    height: auto;
   }
 
   img {
@@ -79,11 +86,15 @@
     }
 
     @media (max-width: 750px) {
-      font-size: 8.5px;
+      font-size: 10.5px;
+    }
+
+    @media (max-width: 540px) {
+      font-size: 10.5px;
     }
 
     @media (max-width: 480px) {
-      font-size: 8px;
+      font-size: 14px;
     }
 
     &:hover {

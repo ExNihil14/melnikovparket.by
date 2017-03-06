@@ -81,6 +81,12 @@
     flex-flow: row wrap;
   }
 
+  @media (max-width: 350px) {
+    flex-flow: colimn wrap;
+    @include align-items(center);
+    width: 60%;
+  }
+
   h5 {
     margin-left: 3%;
   }
