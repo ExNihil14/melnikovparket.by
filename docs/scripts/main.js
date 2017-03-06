@@ -135,7 +135,7 @@ $(document).ready(function () {
 
 	$(".button-collapse").sideNav();
 
-	$(".close").on('click', function () {
+	$(".closeMenu").on('click', function () {
 		sideNav('hide');
 	});
 });
