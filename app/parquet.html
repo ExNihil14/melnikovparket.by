@@ -19,8 +19,15 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
     
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
     <!-- endbuild -->
   </head>
   <body>
@@ -35,8 +42,8 @@
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="index.html">главная</a></li>
             <li><a href="parquet.html">паркет</a></li>
-            <li><a href="laying.html">укладка паркета</a></li>
-            <li><a href="polishing.html">шлифовка пола</a></li>
+            <li><a href="ukladka.html">укладка паркета</a></li>
+            <li><a href="shlifovka.html">шлифовка пола</a></li>
             <li><a href="market.html">паркетная химия</a></li>
             <li><a href="galery.html">наши работы</a></li>
             <li><a href="blog.html">статьи</a></li>
@@ -45,8 +52,8 @@
           <ul class="side-nav" id="mobile-demo">
             <li><a href="index.html">главная</a></li>
             <li><a href="parquet.html">паркет</a></li>
-            <li><a href="laying.html">укладка паркета</a></li>
-            <li><a href="polishing.html">шлифовка пола</a></li>
+            <li><a href="ukladka.html">укладка паркета</a></li>
+            <li><a href="shlifovka.html">шлифовка пола</a></li>
             <li><a href="market.html">паркетная химия</a></li>
             <li><a href="galery.html">наши работы</a></li>
             <li><a href="blog.html">статьи</a></li>
@@ -327,8 +334,8 @@
           <h5>Карта сайта</h5>
           <ul class="footer-menu">
             <li><a href="parquet.html">Паркет</a></li>
-            <li><a href="laying.html">Укладка паркета</a></li>
-            <li><a href="polishing.html">Шлифовка пола</a></li>
+            <li><a href="ukladka.html">Укладка паркета</a></li>
+            <li><a href="shlifovka.html">Шлифовка пола</a></li>
           </ul>
           <ul class="footer-menu">
             <li><a href="">Клей для паркета</a></li>
@@ -344,7 +351,7 @@
           </ul>
         </div>
         <div class="footer-item">
-          <a href="mailto:valentina_parquet@mail.ru"><strong>valentina_parquet@mail.ru</strong></a>
+          <a href="mailto:valentina_parket@mail.ru"><strong>valentina_parket@mail.ru</strong></a>
           <p>ИП Мельникова В.Н. УНП 400250843<br/>
           <br/>
           г.Гомель, Беларусь<br/>
@@ -352,32 +359,26 @@
           <span>© Художественный паркет</span></p>
         </div>
         <div class="footer-item-phone">
-          <p><strong><em>Наши телефоны:</em></strong></p>
-          <a href="tel:+375296414613">+375 (29) <span>641-46-13</span></a>
-          <a href="tel:+375232758087">+375 (232) <span>75-80-87</span></a>
+          <p><em>Наши телефоны:</em></p>
+          <a href="tel:+375296414613"><em>+375 (29) <span>641-46-13</span></em></a>
+          <a href="tel:+375232758087"><em>+375 (232) <span>75-80-87</span></em></a>
         </div>
+        <!--LiveInternet counter-->
+        <script type="text/javascript">
+          document.write("<a href='//www.liveinternet.ru/click'"+"target=_blank><img src='//counter.yadro.ru/hit?t44.6;r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";"+Math.random()+"' alt='' title='LiveInternet' "+"border='0' width='31' height='31'><\/a>")
+        </script>
+        <!--/LiveInternet-->
       </div>
     </footer>
-    
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
 
-    <!-- build:js scripts/vendor.js -->
+    <!-- build:js scripts/vendor.js -->    
     <!-- bower:js -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="scripts/slick.js"></script> 
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.js"></script>
+    <script src="scripts/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.js"></script>   
     <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="scripts/slick.js"></script>  -->  

@@ -111,7 +111,7 @@ $(document).ready(function(){
 	});
 
 			
- // Cлайдер **************************************************************
+// Cлайдер **************************************************************
 
  	$('.Mycarousel').slick({
     prevArrow:"<img class='a-left control-c prev slick-prev' src='images/back.png'>",
@@ -126,9 +126,17 @@ $(document).ready(function(){
 		slidesToScroll: 1
 	});
 
-	// ***************************************************************************
+// ***************************************************************************
 
-	$(".button-collapse").sideNav();
+	$(".button-collapse").sideNav({
+         closeOnClick: true
+        });
+
+        $(".button-collapse").sideNav();
+
+        $(".close").on('click', function() {
+        	sideNav('hide');
+		});
 
 });
 

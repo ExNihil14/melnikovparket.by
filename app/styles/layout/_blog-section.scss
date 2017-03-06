@@ -5,6 +5,7 @@
 .blog-section {
   @include clearfix;
   background-color: white;
+  margin-top: 2%;
   padding: 1% 4%;
   position: relative;
   text-align: center;
@@ -56,19 +57,23 @@
 
   .responsive-img {
     float: left;
-    margin-bottom: 2%;
-    margin-right: 5%;
-    width: 50%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    width: 40%;
   }
 
   p {
+    font-size: 14px;
     margin-top: 0;
+    padding-bottom: 50px;
     text-align: justify;
   }
 
   span {
     color: rgb(0,187,187);
     float: left;
+    font-size: 14pt;
+    font-weight: bold;
   }
 
   a {

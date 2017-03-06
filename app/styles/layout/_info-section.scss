@@ -7,12 +7,19 @@
   @include flex-direction(column);
   @include flexbox;
   @include justify-content(space-between);
-  background-color: white;
   text-align: center;
   width: 100%;
 
+  h2 {
+    margin-bottom: .25em;
+  }
+
   .container {
     padding: 0 10%;
+
+    .ya-share2 {
+      text-align: left;
+    }
 
     p {
       text-align: justify;

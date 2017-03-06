@@ -3,7 +3,7 @@
 */
 
 .rec-prod-section {
-  background-color: #f9f9f9; 
+  margin-top: 3em;
   text-align: center;
   width: 100%;
 }
@@ -13,7 +13,7 @@
   @include flex-direction(row);
   @include flexbox;
   @include justify-content(space-around);
-  padding: 1% 0 3%;
+  padding: 4% 0 3%;
 
 
   @media (max-width: 560px) {
@@ -52,6 +52,7 @@
 
   h5 {
     margin: 10% 0;
+    font-size: 14px;
 
     @media (max-width: 1280px) {
       font-size: 9.5px;

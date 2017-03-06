@@ -4,8 +4,9 @@
 
 .review-section {
   background-color: white;
-  margin-top: 5%;
-  padding-bottom: 3%;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  padding-bottom: 5%;
   position: relative;
   text-align: center;
   width: 100%;
@@ -39,6 +40,10 @@
     left: auto;
     right: 10px;
     transform: rotate(2deg);
+  }
+
+  h2 {
+    padding: 30px 20px 30px 10px;
   }
 
   .btn {

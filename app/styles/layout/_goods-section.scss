@@ -10,6 +10,8 @@
   @include justify-content(flex-start);
   background-color: #f9f9f9; 
   flex-flow: row wrap;
+  margin-left: 3%;
+  margin-top: 3%;
   text-align: center;
   width: 100%;
 
@@ -26,11 +28,11 @@
   background-color: white;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   flex: 0 1 auto;
-  margin: 2%;
+  margin: 12px;
   opacity: 1;
   text-align: center;
-  width: 15%;
-  height: 200px;
+  width: 16%;
+  height: 225px;
 
   @media (min-width: 1361px) and (max-width: 1920px) {
     height: 230px;
@@ -68,6 +70,9 @@
 
   h5 {
     cursor:pointer;
+    margin: 0.82rem 0 0.656rem 0;
+    font-size: 14px;
+    padding: 10px;
 
     @media (max-width: 960px) {
       font-size: 10px;

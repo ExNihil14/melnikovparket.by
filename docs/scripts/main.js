@@ -129,6 +129,14 @@ $(document).ready(function () {
 
 	// ***************************************************************************
 
+	$(".button-collapse").sideNav({
+		closeOnClick: true
+	});
+
 	$(".button-collapse").sideNav();
+
+	$(".close").on('click', function () {
+		sideNav('hide');
+	});
 });
 //# sourceMappingURL=main.js.map

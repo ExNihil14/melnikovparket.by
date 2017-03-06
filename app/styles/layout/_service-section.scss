@@ -4,6 +4,7 @@
 
 .service-section {
   background-color: white;
+  margin: 3% 0;
   padding-bottom: 3%;
   position: relative;
   text-align: center;
@@ -40,8 +41,13 @@
     transform: rotate(2deg);
   }
 
+  h2 {
+    margin-bottom: 0.25em;
+  }
+
   h3 {
     color: grey;
+    margin-top: 0;
   }
 
 }
@@ -51,6 +57,7 @@
   @include flex-direction(row);
   @include flexbox;
   @include justify-content(center);
+  margin-top: 4%;
   
   @media (max-width: 480px) {
     @include flex-direction(column);
