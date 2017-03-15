@@ -1,8 +1,8 @@
 /*
-  BLOG-SECTION
+  BLOG-FULL-SECTION
 */
 
-.blog-section {
+.blog-full-section {
   @include clearfix;
   background-color: white;
   margin-top: 2%;
@@ -21,7 +21,7 @@
 
 }
 
-.blog-item {
+.blog-full-item {
   background-color: white;
 
   &:before,
@@ -55,6 +55,14 @@
     transform: rotate(2deg);
   }  
 
+  h3 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1.46rem 0 1.168rem 0;
+    color: black;
+  }
+
   .responsive-img {
     float: left;
     margin-bottom: 1%;
@@ -62,26 +70,30 @@
     width: 40%;
   }
 
-  .right {
+  .right-pos {
     float: right;
+    margin-right: 0;
+    margin-left: 2%;
+  }
+
+  ul {
+    text-align: justify; 
+    font-size: 14px;
+    line-height: 1.5;
+
+    li {
+      margin-bottom: 1%;
+    } 
+
   }
 
   p {
     font-size: 14px;
     margin-top: 0;
-    padding-bottom: 50px;
     text-align: justify;
   }
 
-  span {
-    color: rgb(0,187,187);
-    float: left;
-    font-size: 14pt;
-    font-weight: bold;
-  }
-
   a {
-    float: right;
 
     @media (max-width: 385px) {
       font-size: 8px;
@@ -92,5 +104,5 @@
 }
 
 /*
-  END BLOG-SECTION
+  END BLOG-FULL-SECTION
 */

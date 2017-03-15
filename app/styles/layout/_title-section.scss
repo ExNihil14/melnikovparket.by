@@ -145,6 +145,33 @@
 
 }
 
+.title-blog-caption {
+  left: 25%;
+  position: absolute;
+  top: 50%;
+  width: 50%;
+
+  @media (max-width: 750px) {
+    width: 55%;
+    left: 20%;
+    top: 40%;
+  }
+
+  @media (max-width: 480px) {
+    width: 60%;
+    left: 15%;
+    top: 40%;
+  }
+
+  h2 {
+    font-size: 30px;
+    color: white;
+    margin: 0;
+  }
+
+}
+
+
 /*
   END TITLE-SECTION
 */
